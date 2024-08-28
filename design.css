@@ -185,3 +185,78 @@ header{
 
     margin-top: 80px;
 }
+
+/* coming-soon-section */
+.coming-soon-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1320px;
+    height: 500px;
+
+    margin-top: 150px;
+}
+
+.coming-soon-section-div1 h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.coming-soon-section-div1 h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.coming-soon-section-div1 p{
+    width: 380px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.coming-soon-section-div2{
+    width: 465px;
+    height: 465px;
+
+    border-radius: 465px;
+    border: 15px solid #F00;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coming-soon-section-div2 img{
+    width: 365px;
+    height: 365px;
+
+    border-radius: 365px;
+}
+
+.coming-soon-section-div3 h1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.coming-soon-section-div3 p{
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.coming-soon-section-div3 img{
+    width: 140px;
+    height: 140px;
+}
