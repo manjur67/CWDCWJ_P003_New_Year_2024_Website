@@ -260,3 +260,84 @@ header{
     width: 140px;
     height: 140px;
 }
+
+/* holidays-sale-section */
+.holidays-sale-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 100px;
+}
+
+.holidays-sale-section-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.holidays-sale-section-div1 h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+    margin-bottom: -30px;
+}
+
+.holidays-sale-section-div1 h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.holidays-sale-section-div1 h1 span{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holidays-sale-section-div1 p{
+    width: 1068px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.holidays-sale-section-div2{
+    margin-top: 50px;
+    width: 1320px;
+}
+
+.fifty-percent-dis{
+    position: relative;
+    left: 750px;
+    top: -50px;
+    z-index: 1;
+}
+
+.shopping{
+    position: relative;
+    left: 580px;
+}
+
+.red-rectangle{
+    position: relative;
+    top: -10px;
+    border-radius: 10px;
+}
+
+.gift-box{
+    position: relative;
+    top: -650px;
+    left: -50px;
+}
