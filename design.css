@@ -341,3 +341,52 @@ header{
     top: -650px;
     left: -50px;
 }
+
+/* awesome-portfolio-section */
+.awesome-portfolio-section{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: -600px;
+}
+
+.awesome-portfolio-section-div1 h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: -20px;
+}
+
+.awesome-portfolio-section-div1 h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: -10px;
+}
+
+.awesome-portfolio-section-div1 p{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.awesome-portfolio-section-div2{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.awesome-portfolio-section-div3{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
