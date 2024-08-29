@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 
-body{
-    max-width: 1320px;
-    margin: 0 auto;
-}
-
 /* header */
 header{
     width: 1320px;
@@ -13,6 +8,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
+    margin: 0 auto;
     margin-top: 50px;
 }
 
@@ -41,6 +37,10 @@ header{
 }
 
 /* main styles */
+main{
+    max-width: 1320px;
+    margin: 0 auto;
+}
 
 /* discount-section */
 .discount-section{
@@ -468,4 +468,78 @@ header{
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
+}
+
+/* footer */
+footer{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+}
+
+.footer-div0{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.footer-div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.ft-p1{
+    width: 400px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.ft-p2{
+    width: 375px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+hr{
+    width: 1320px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-div2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.footer-div3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ft-p3{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.ft-p4{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
 }
